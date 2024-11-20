@@ -1,28 +1,75 @@
 body{
-    background-color: aqua;
+    background-color: rgb(105, 231, 231);
 }
 .title{
     color:red;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
-ul,ol{ color:rgb(117, 32, 32);
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'Ariel';
-    text-decoration: none;
-
+#index.title{
+    text-align: center;
 }
+ul,ol{ 
+    color:rgb(255, 38, 0);
+    font-size: 20px; 
+   font-weight: bold;
+   
+}
+
 li a{
     text-decoration: none;
     color:inherit;
+   
+  
     
+}
+.recipeleft{
+    text-align: left;
+    font-size: 30px;
+    color:rgb(137, 14, 148);
+    font-weight: bold;
+}
+.box{
+      background-color: white;
+    width:fit-content;
+    margin: 0 auto;
+    border:2px red solid;
+    display: flex;
+   
+    
+
+}
+.titlebox{
+    display: block;
+    text-align: center;
+}
+.recipe_title{
+    text-align: center;
+}
+
+p {
+    display: inline; /* Provides better control over inline positioning */
+    margin: 0;
+    padding: 0;
+    line-height: 1; /* Adjust this as needed */
+    vertical-align: top; /* Aligns text to the top */
+}
+  
+
+
+.menu{
+    background-color: white;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0px;
+    border:2px red solid;
+    text-align: center;
 }
 
 .title.sarma{
-    font-family: 'Franklin Gothic Medium';}
-
-    .title.apple{
+    font-family: 'Franklin Gothic Medium';
+text-align: center;}
+.title.apple{
         font-family:'Courier';
     }
 .title.chicken{
@@ -30,12 +77,34 @@ li a{
 }    
 .ul#index{
     font-size:25px;
+   
+   
+}
+#index li{
+    display: inline;
+    margin: 10px;
 }
 p[class="recipe"]{
     font-size: 30px;
     text-align: right;
     color:rgb(137, 14, 148);
     font-weight: bold;
+
+}
+
+.recipe_info{
+    margin:0 auto;
+   padding: 10px;
+   width: 300px;
+   display: flex;
+   border: 5px purple solid;
+   border-right: none;
+   box-sizing: border-box;
+}
+.recipe_img{
+    display: flex;
+    border: 5px red solid;
+    box-sizing: border-box;
 
 }
 h1[class="recipe"]{
@@ -47,4 +116,54 @@ a[class="odin"]{
     color:red;
     text-decoration: none;
     font-weight: bold;
+}
+
+.lower_box{
+    display: flex;
+    background-color: white;
+    width:fit-content;
+    margin: 0 auto;
+    border:2px red solid;
+    
+   
+
+}
+.box_recipe{
+    display: flex;
+    margin:0 auto;
+   padding: 50px;
+   padding-top: 0px;
+   padding-left: 0px;
+   display: flex;
+   border: 5px purple solid;
+   border-right: none;
+   box-sizing: border-box;
+}
+.box_steps{
+    display: flex;
+    margin:0 auto;
+   padding: 10px;
+
+   display: flex;
+   border: 5px purple solid;
+  
+   box-sizing: border-box;
+}
+.body{
+    display: flex;
+    border-collapse: collapse;
+    width: 100%;
+}
+.div_title{
+    width:100%;
+    background-color: white;
+    border:5px red solid;
+    margin: 0 auto;
+    box-sizing: border-box;
+      
+}
+.back{
+    width: max-content;
+    background-color: blue;
+    border: 3px red solid;
 }
